@@ -1,0 +1,148 @@
+/* Centraliza o texto dos títulos */
+h1, h2 {
+    text-align: center;
+}
+
+/* Estilizando o corpo da página */
+body {
+    font-family: 'Roboto', sans-serif; /* Fonte do corpo */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+    background-color: #f4f4f4; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+}
+
+/* Estilizando a imagem de perfil */
+.foto-perfil {
+    padding: 40px 20px;
+    max-width: 30%; /* Largura máxima */
+    border-radius: 70px; /* Bordas arredondadas */
+    display: block; /* Exibe como bloco */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    padding: 15px 0; /* Preenchimento vertical */
+    text-align: center; /* Centraliza o texto */
+}
+
+/* Estilizando a lista de navegação */
+nav ul {
+    list-style-type: none; /* Remove marcadores */
+    padding: 0; /* Remove preenchimento */
+}
+
+/* Estilizando os itens da lista de navegação */
+nav ul li {
+    display: inline; /* Exibe em linha */
+    margin-right: 20px; /* Espaço à direita */
+}
+
+/* Estilizando os links da navegação */
+nav ul li a {
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: bold; /* Negrito */
+}
+
+/* Efeito ao passar o mouse sobre os links */
+nav ul li a:hover {
+    text-decoration: underline; /* Adiciona sublinhado */
+}
+
+/* Estilizando a seção principal */
+main {
+    padding: 20px; /* Preenchimento */
+    min-width: 800px; /* Largura mínima */
+    max-width: 800px; /* Largura máxima */
+    margin: auto; /* Centraliza */
+    background-color: white; /* Cor de fundo */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Define a cor dos títulos */
+h1, h2 {
+    color: #4CAF50; /* Cor verde */
+}
+
+/* Estilizando o rodapé */
+footer {
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Preenchimento vertical */
+    background-color: #333; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    position: relative; /* Posição relativa */
+    bottom: 0; /* Alinha na parte inferior */
+    width: 100%; /* Largura total */
+}
+
+/* Estilizando o formulário */
+form {
+    display: flex; /* Usa flexbox */
+    flex-direction: column; /* Organiza em coluna */
+}
+
+/* Estilizando os rótulos do formulário */
+label {
+    margin-top: 10px; /* Espaço acima */
+}
+
+/* Estilizando campos de entrada e textarea */
+input, textarea {
+    padding: 10px; /* Preenchimento interno */
+    margin-top: 5px; /* Espaço acima */
+    border: 1px solid #ccc; /* Borda padrão */
+    max-width: 780px; /* Largura máxima */
+    max-height: 150px; /* Altura máxima */
+    border-radius: 4px; /* Bordas arredondadas */
+    resize: vertical; /* Redimensionamento vertical */
+}
+
+/* Estilo ao focar nos campos */
+input:focus, textarea:focus {
+    border-color: #4CAF50; /* Cor da borda ao focar */
+    outline: none; /* Remove contorno padrão */
+}
+
+/* Estilizando o botão */
+button {
+    margin-top: 10px; /* Espaço acima */
+    padding: 10px; /* Preenchimento interno */
+    background-color: #4CAF50; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor */
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #45a049; /* Cor ao passar o mouse */
+}
+
+/* Estilizando o corpo para usar flexbox */
+body {
+    display: flex; /* Usa flexbox */
+    flex-direction: column; /* Organiza em coluna */
+    min-height: 100vh; /* Altura mínima */
+}
+
+/* Faz a seção principal ocupar o espaço restante */
+main {
+    flex: 1; /* Permite que a seção principal cresça */
+}
+
+/* Estilizando o rodapé */
+footer {
+    background-color: #333; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 1px 0; /* Preenchimento vertical */
+    bottom: 0; /* Alinha na parte inferior */
+    left: 0; /* Alinha à esquerda */
+    right: 0; /* Alinha à direita */
+}
